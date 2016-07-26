@@ -7,122 +7,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3a67114-0715-4aa1-9ede-3aa566399893" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/ERISAJAVA.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/Flipper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/Input-Types.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/JSON/javax.json-1.0.2-sources.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/JSON/javax.json-1.0.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/JSON/javax.json-api-1.0-prd.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/gson-2.7.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/pdfbox-app-1.8.10.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/StanfordDependenciesManual.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/ejml-0.23-src.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/ejml-0.23.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/slf4j-api.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/slf4j-simple.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/stanford-parser-3.6.0-javadoc.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/stanford-parser-3.6.0-models.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/stanford-parser-3.6.0-sources.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/stanford-parser.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/lib/slf4j-api.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/lib/slf4j-simple.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/arabic-train.tagger" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/arabic.tagger" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/chinese-distsim.tagger" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/chinese-nodistsim.tagger" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/english-bidirectional-distsim.tagger" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/english-caseless-left3words-distsim.tagger" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/english-left3words-distsim.tagger" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/french.tagger" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/german-dewac.tagger" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/german-fast-caseless.tagger" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/german-fast.tagger" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/german-hgc.tagger" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/spanish-distsim.tagger" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/spanish.tagger" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/wsj-0-18-bidirectional-distsim.tagger" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/wsj-0-18-bidirectional-nodistsim.tagger" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/wsj-0-18-caseless-left3words-distsim.tagger" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/wsj-0-18-left3words-distsim.tagger" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/wsj-0-18-left3words-nodistsim.tagger" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/stanford-postagger-3.6.0-javadoc.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/stanford-postagger-3.6.0-sources.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/stanford-postagger-3.6.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/stanford-postagger.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manager-resources/FlipperMMDS.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/DependencyParserDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/ParserDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/ParserDemo2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/README_dependencies.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/ShiftReduceDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/build.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/conf/atb-latest.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/conf/ftb-latest.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/data/arabic-onesent-utf8.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/data/chinese-onesent-gb18030.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/data/chinese-onesent-unseg-gb18030.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/data/chinese-onesent-unseg-utf8.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/data/chinese-onesent-utf8.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/data/english-onesent.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/data/french-onesent.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/data/german-onesent.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/data/pos-sentences.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/data/testsent.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/lexparser-gui.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/lexparser-gui.command" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/lexparser-gui.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/lexparser-lang-train-test.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/lexparser-lang.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/lexparser.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/lexparser.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/lexparser_lang.def" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-parser-full-2015-12-09/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/TaggerDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/TaggerDemo2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/build.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/data/enclitic-inflections.data" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/README-Models.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/arabic-train.tagger.props" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/arabic.tagger.props" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/chinese-distsim.tagger.props" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/chinese-nodistsim.tagger.props" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/english-bidirectional-distsim.tagger.props" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/english-caseless-left3words-distsim.tagger.props" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/english-left3words-distsim.tagger.props" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/french.tagger.props" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/german-dewac.tagger.props" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/german-fast-caseless.tagger.props" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/german-fast.tagger.props" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/german-hgc.tagger.props" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/spanish-distsim.tagger.props" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/spanish.tagger.props" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/wsj-0-18-bidirectional-distsim.tagger.props" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/wsj-0-18-bidirectional-nodistsim.tagger.props" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/wsj-0-18-caseless-left3words-distsim.tagger.props" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/wsj-0-18-left3words-distsim.tagger.props" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/models/wsj-0-18-left3words-nodistsim.tagger.props" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/sample-input.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/sample-output.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/stanford-postagger-gui.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/stanford-postagger-gui.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/stanford-postagger.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09/stanford-postagger.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/EmotionTools/BasicEmotions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/EmotionTools/Emotion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/EmotionTools/EmotionHolder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/util/ActionTimer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/util/InterceptorStream.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/util/Paths.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/util/SpeechGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/util/StandfordTagger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/util/StanfordParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manager-resources/run.bat" afterPath="$PROJECT_DIR$/manager-resources/run.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/eu/ariaagent/flipper/ManagerParser.java" afterPath="$PROJECT_DIR$/src/eu/ariaagent/flipper/ManagerParser.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/EmotionTools/BasicEmotions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/EmotionTools/Emotion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/EmotionTools/EmotionHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/behaviours/BehaviourToGui.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/gui/GuiController$DataChanged.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/gui/GuiController$DataChangedType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/gui/GuiController$EmotionKV.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/gui/GuiController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/gui/UserAndAgentGui$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/gui/UserAndAgentGui$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/gui/UserAndAgentGui$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/gui/UserAndAgentGui$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/gui/UserAndAgentGui$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/gui/UserAndAgentGui$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/gui/UserAndAgentGui$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/gui/UserAndAgentGui$Holder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/gui/UserAndAgentGui.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/managers/GuiManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/managers/IntentManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/managers/POSManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/managers/utils/ISInspector.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/managers/utils/ISInspectorController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/managers/utils/ISInspectorGui$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/managers/utils/ISInspectorGui$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/managers/utils/ISInspectorGui$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/managers/utils/ISInspectorGui$Holder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/managers/utils/ISInspectorGui.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/ActionTimer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/InterceptorStream$Listener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/InterceptorStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/Paths.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/RemoverStopWord.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/Rules.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/RulesReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/Say.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/SentencesToKeywords.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/SpeechGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/StandfordTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/StanfordParser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/StanfordTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/State.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/SynonymReplacement.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/ariaagent/flipper/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/ariaagent/flipper/ManagerController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/ariaagent/flipper/ManagerParser$XSDErrorHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/ariaagent/flipper/ManagerParser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/ariaagent/managers/DefaultManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/ariaagent/managers/Manager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/ariaagent/managers/SimpleManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/ariaagent/util/ManageableBehaviourClass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/ariaagent/util/ManageableFunction.class" afterPath="" />
     </list>
     <ignored path="FlipperMMDS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -373,38 +308,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="flipper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlipperMMDS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlipperMMDS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="out" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlipperMMDS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlipperMMDS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="out" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artifacts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1016,7 +919,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1030,7 +933,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
