@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="FlipperMMDS:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/FlipperMMDS_jar</output-path>
+    <output-path>$PROJECT_DIR$/manager-resources</output-path>
     <root id="archive" name="FlipperMMDS.jar">
       <element id="module-output" name="FlipperMMDS" />
       <element id="extracted-dir" path="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/Util.jar" path-in-jar="/" />

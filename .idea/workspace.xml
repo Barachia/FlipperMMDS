@@ -7,57 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3a67114-0715-4aa1-9ede-3aa566399893" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/EmotionTools/BasicEmotions.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/EmotionTools/Emotion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/EmotionTools/EmotionHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/behaviours/BehaviourToGui.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/gui/GuiController$DataChanged.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/gui/GuiController$DataChangedType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/gui/GuiController$EmotionKV.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/gui/GuiController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/gui/UserAndAgentGui$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/gui/UserAndAgentGui$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/gui/UserAndAgentGui$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/gui/UserAndAgentGui$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/gui/UserAndAgentGui$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/gui/UserAndAgentGui$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/gui/UserAndAgentGui$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/gui/UserAndAgentGui$Holder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/gui/UserAndAgentGui.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/managers/GuiManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/managers/IntentManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/managers/POSManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/managers/utils/ISInspector.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/managers/utils/ISInspectorController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/managers/utils/ISInspectorGui$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/managers/utils/ISInspectorGui$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/managers/utils/ISInspectorGui$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/managers/utils/ISInspectorGui$Holder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/managers/utils/ISInspectorGui.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/ActionTimer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/InterceptorStream$Listener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/InterceptorStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/Paths.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/RemoverStopWord.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/Rules.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/RulesReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/Say.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/SentencesToKeywords.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/SpeechGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/StandfordTagger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/StanfordParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/StanfordTagger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/State.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/aria/dialogue/util/SynonymReplacement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/ariaagent/flipper/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/ariaagent/flipper/ManagerController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/ariaagent/flipper/ManagerParser$XSDErrorHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/ariaagent/flipper/ManagerParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/ariaagent/managers/DefaultManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/ariaagent/managers/Manager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/ariaagent/managers/SimpleManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/ariaagent/util/ManageableBehaviourClass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FlipperMMDS/eu/ariaagent/util/ManageableFunction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/util/StandfordTagger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manager-resources/FlipperMMDS.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/FlipperMMDS_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/FlipperMMDS_jar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/managers/POSManager.java" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/managers/POSManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/util/StanfordTagger.java" afterPath="$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/util/StanfordTagger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manager-resources/config/managerexample.xml" afterPath="$PROJECT_DIR$/manager-resources/config/managerexample.xml" />
     </list>
     <ignored path="FlipperMMDS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,97 +33,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="run.bat" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manager-resources/run.bat">
+      <file leaf-file-name="IntentManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/managers/IntentManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="342">
+              <caret line="129" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="129" selection-end-column="8" />
+              <folding>
+                <element signature="docComment;class#IntentManager#0" expanded="false" />
+                <element signature="e#3812#3897#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="POSManager.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="POSManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/managers/POSManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="106" column="44" selection-start-line="106" selection-start-column="44" selection-end-line="106" selection-end-column="44" />
+            <state relative-caret-position="85">
+              <caret line="114" column="54" selection-start-line="114" selection-start-column="54" selection-end-line="114" selection-end-column="54" />
               <folding>
+                <element signature="e#0#11843#0" expanded="true" />
+                <element signature="imports" expanded="true" />
                 <element signature="docComment;class#POSManager#0" expanded="false" />
-                <element signature="method#POSManager#0;class#POSManager#0" expanded="false" />
-                <element signature="method#setParams#0;class#POSManager#0" expanded="false" />
-                <element signature="e#3856#3941#0" expanded="false" />
+                <element signature="e#3869#3954#0" expanded="false" />
+                <element signature="method#processInternal#0;class#POSManager#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ManagerParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eu/ariaagent/flipper/ManagerParser.java">
+      <file leaf-file-name="managerexample.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manager-resources/config/managerexample.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="208" column="55" selection-start-line="208" selection-start-column="55" selection-end-line="208" selection-end-column="55" />
-              <folding>
-                <element signature="docComment;class#ManagerParser#0" expanded="false" />
-                <element signature="method#parseFolder#1;class#ManagerParser#0" expanded="false" />
-                <element signature="method#parseFile#0;class#ManagerParser#0" expanded="false" />
-                <element signature="method#parseFile#1;class#ManagerParser#0" expanded="false" />
-                <element signature="method#parseDocument#0;class#ManagerParser#0" expanded="false" />
-                <element signature="method#getManagerInstance#0;class#ManagerParser#0" expanded="false" />
-                <element signature="method#getFunctionInstance#0;class#ManagerParser#0" expanded="false" />
-                <element signature="method#getBehaviourClassInstance#0;class#ManagerParser#0" expanded="false" />
-                <element signature="method#getClass#0;class#ManagerParser#0" expanded="false" />
-                <element signature="docComment;class#XSDErrorHandler#0;class#ManagerParser#0" expanded="false" />
-                <element signature="class#XSDErrorHandler#0;class#ManagerParser#0" expanded="false" />
-                <element signature="method#XSDErrorHandler#0;class#XSDErrorHandler#0;class#ManagerParser#0" expanded="false" />
-                <element signature="method#error#0;class#XSDErrorHandler#0;class#ManagerParser#0" expanded="false" />
-                <element signature="method#fatalError#0;class#XSDErrorHandler#0;class#ManagerParser#0" expanded="false" />
-                <element signature="method#warning#0;class#XSDErrorHandler#0;class#ManagerParser#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ManagerController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/eu/ariaagent/flipper/ManagerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            <state relative-caret-position="17">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="31" selection-end-column="14" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GuiController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/gui/GuiController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="128" column="4" selection-start-line="128" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
-              <folding>
-                <element signature="docComment;class#GuiController#0" expanded="false" />
-                <element signature="method#getInstance#0;class#GuiController#0" expanded="false" />
-                <element signature="method#addAgentSay#0;class#GuiController#0" expanded="false" />
-                <element signature="method#addUserSay#0;class#GuiController#0" expanded="false" />
-                <element signature="method#updateLastSayInIs#0;class#GuiController#0" expanded="false" />
-                <element signature="method#getAgentSays#0;class#GuiController#0" expanded="false" />
-                <element signature="method#getUserSays#0;class#GuiController#0" expanded="false" />
-                <element signature="method#getAllSays#0;class#GuiController#0" expanded="false" />
-                <element signature="method#setValence#0;class#GuiController#0" expanded="false" />
-                <element signature="method#setInterest#0;class#GuiController#0" expanded="false" />
-                <element signature="method#setArousal#0;class#GuiController#0" expanded="false" />
-                <element signature="method#setAnger#0;class#GuiController#0" expanded="false" />
-                <element signature="method#setDisgust#0;class#GuiController#0" expanded="false" />
-                <element signature="method#setFear#0;class#GuiController#0" expanded="false" />
-                <element signature="method#setHappiness#0;class#GuiController#0" expanded="false" />
-                <element signature="method#setNeutral#0;class#GuiController#0" expanded="false" />
-                <element signature="method#setSurpised#0;class#GuiController#0" expanded="false" />
-                <element signature="class#DataChanged#0;class#GuiController#0" expanded="false" />
-                <element signature="method#DataChanged#0;class#DataChanged#0;class#GuiController#0" expanded="false" />
-                <element signature="class#DataChangedType#0;class#GuiController#0" expanded="false" />
-                <element signature="class#EmotionKV#0;class#GuiController#0" expanded="false" />
-                <element signature="method#EmotionKV#0;class#EmotionKV#0;class#GuiController#0" expanded="false" />
-                <element signature="method#notifyChanged#0;class#GuiController#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -187,12 +87,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/eu/ariaagent/flipper/ManagerParser.java" />
         <option value="$PROJECT_DIR$/manager-resources/run.bat" />
-        <option value="$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/managers/IntentManager.java" />
         <option value="$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/util/ActionTimer.java" />
         <option value="$PROJECT_DIR$/src/eu/ariaagent/EmotionTools/Emotion.java" />
         <option value="$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/managers/utils/POSManager.java" />
         <option value="$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/util/SpeechGenerator.java" />
         <option value="$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/EmotionTools/EmotionHolder.java" />
+        <option value="$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/util/StanfordTagger.java" />
+        <option value="$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/managers/IntentManager.java" />
+        <option value="$PROJECT_DIR$/manager-resources/config/managerexample.xml" />
         <option value="$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/managers/POSManager.java" />
       </list>
     </option>
@@ -266,6 +168,10 @@
               <option name="myItemId" value="ariaagent" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -335,37 +241,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ExampleManagers" />
+              <option name="myItemId" value="manager-resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ExampleManagers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlipperMMDS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlipperMMDS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExampleManagers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExampleManagers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dialogue" />
+              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -379,183 +259,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ExampleManagers" />
+              <option name="myItemId" value="manager-resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ExampleManagers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dialogue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="managers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlipperMMDS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlipperMMDS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExampleManagers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExampleManagers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dialogue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="managers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlipperMMDS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlipperMMDS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExampleManagers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExampleManagers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dialogue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlipperMMDS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlipperMMDS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExampleManagers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExampleManagers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dialogue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmotionTools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlipperMMDS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlipperMMDS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExampleManagers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExampleManagers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dialogue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="behaviours" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlipperMMDS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlipperMMDS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExampleManagers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExampleManagers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlipperMMDS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlipperMMDS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExampleManagers" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -564,8 +272,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/manager-resources" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -985,7 +693,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -999,9 +709,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#IntentManager#0" expanded="false" />
-            <element signature="method#setParams#0;class#IntentManager#0" expanded="false" />
             <element signature="e#3812#3897#0" expanded="false" />
-            <element signature="method#processInternal#0;class#IntentManager#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1010,22 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager-resources/config/managerexample.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eu/ariaagent/flipper/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-37">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1077,26 +769,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/util/StandfordTagger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/util/Paths.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/util/StanfordParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1114,7 +790,7 @@
         <state relative-caret-position="102">
           <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1140,31 +816,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/managers/IntentManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="40" column="37" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="37" />
-          <folding>
-            <element signature="docComment;class#IntentManager#0" expanded="false" />
-            <element signature="method#setParams#0;class#IntentManager#0" expanded="false" />
-            <element signature="e#3812#3897#0" expanded="false" />
-            <element signature="method#processInternal#0;class#IntentManager#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manager-resources/run.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/managers/GuiManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1174,8 +829,8 @@
         <state relative-caret-position="255">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="false" />
+            <element signature="e#444#445#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1185,67 +840,11 @@
         <state relative-caret-position="34">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2196#2197#0" expanded="true" />
-            <element signature="e#2223#2224#0" expanded="true" />
-            <element signature="e#2277#2278#0" expanded="true" />
-            <element signature="e#2309#2310#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/behaviours/BehaviourToGui.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="10" />
-          <folding>
-            <element signature="e#1179#1180#0" expanded="false" />
-            <element signature="e#1214#1215#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/gui/GuiController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="128" column="4" selection-start-line="128" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
-          <folding>
-            <element signature="docComment;class#GuiController#0" expanded="false" />
-            <element signature="method#getInstance#0;class#GuiController#0" expanded="false" />
-            <element signature="method#addAgentSay#0;class#GuiController#0" expanded="false" />
-            <element signature="method#addUserSay#0;class#GuiController#0" expanded="false" />
-            <element signature="method#updateLastSayInIs#0;class#GuiController#0" expanded="false" />
-            <element signature="method#getAgentSays#0;class#GuiController#0" expanded="false" />
-            <element signature="method#getUserSays#0;class#GuiController#0" expanded="false" />
-            <element signature="method#getAllSays#0;class#GuiController#0" expanded="false" />
-            <element signature="method#setValence#0;class#GuiController#0" expanded="false" />
-            <element signature="method#setInterest#0;class#GuiController#0" expanded="false" />
-            <element signature="method#setArousal#0;class#GuiController#0" expanded="false" />
-            <element signature="method#setAnger#0;class#GuiController#0" expanded="false" />
-            <element signature="method#setDisgust#0;class#GuiController#0" expanded="false" />
-            <element signature="method#setFear#0;class#GuiController#0" expanded="false" />
-            <element signature="method#setHappiness#0;class#GuiController#0" expanded="false" />
-            <element signature="method#setNeutral#0;class#GuiController#0" expanded="false" />
-            <element signature="method#setSurpised#0;class#GuiController#0" expanded="false" />
-            <element signature="class#DataChanged#0;class#GuiController#0" expanded="false" />
-            <element signature="method#DataChanged#0;class#DataChanged#0;class#GuiController#0" expanded="false" />
-            <element signature="class#DataChangedType#0;class#GuiController#0" expanded="false" />
-            <element signature="class#EmotionKV#0;class#GuiController#0" expanded="false" />
-            <element signature="method#EmotionKV#0;class#EmotionKV#0;class#GuiController#0" expanded="false" />
-            <element signature="method#notifyChanged#0;class#GuiController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/managers/POSManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="106" column="44" selection-start-line="106" selection-start-column="44" selection-end-line="106" selection-end-column="44" />
-          <folding>
-            <element signature="docComment;class#POSManager#0" expanded="false" />
-            <element signature="method#POSManager#0;class#POSManager#0" expanded="false" />
-            <element signature="method#setParams#0;class#POSManager#0" expanded="false" />
-            <element signature="e#3856#3941#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2196#2197#0" expanded="false" />
+            <element signature="e#2223#2224#0" expanded="false" />
+            <element signature="e#2277#2278#0" expanded="false" />
+            <element signature="e#2309#2310#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1276,9 +875,175 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eu/ariaagent/flipper/ManagerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        <state relative-caret-position="-352">
+          <caret line="90" column="13" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eu/ariaagent/flipper/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/util/StanfordTagger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/util/SentencesToKeywords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../eNTERFACE16/UserInput/src/eu/aria/core/UserGui/UserGui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="152" column="76" selection-start-line="152" selection-start-column="71" selection-end-line="152" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../eNTERFACE16/UserInput/src/eu/aria/core/UserGui/JSONManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="51" column="0" selection-start-line="47" selection-start-column="12" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/Flipper.jar!/hmi/flipper/informationstate/List.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-217">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/ExampleManagers/ExampleManagers/lib/Flipper.jar!/hmi/flipper/defaultInformationstate/DefaultList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-850">
+          <caret line="171" column="24" selection-start-line="171" selection-start-column="24" selection-end-line="171" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/manager.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/util/StanfordParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/util/StanfordTagger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/gui/GuiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="91" column="29" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
+          <folding>
+            <element signature="docComment;class#GuiController#0" expanded="false" />
+            <element signature="method#getInstance#0;class#GuiController#0" expanded="false" />
+            <element signature="method#addAgentSay#0;class#GuiController#0" expanded="false" />
+            <element signature="method#addUserSay#0;class#GuiController#0" expanded="false" />
+            <element signature="method#getAgentSays#0;class#GuiController#0" expanded="false" />
+            <element signature="method#getUserSays#0;class#GuiController#0" expanded="false" />
+            <element signature="method#getAllSays#0;class#GuiController#0" expanded="false" />
+            <element signature="method#setValence#0;class#GuiController#0" expanded="false" />
+            <element signature="method#setInterest#0;class#GuiController#0" expanded="false" />
+            <element signature="method#setArousal#0;class#GuiController#0" expanded="false" />
+            <element signature="method#setAnger#0;class#GuiController#0" expanded="false" />
+            <element signature="method#setDisgust#0;class#GuiController#0" expanded="false" />
+            <element signature="method#setFear#0;class#GuiController#0" expanded="false" />
+            <element signature="method#setHappiness#0;class#GuiController#0" expanded="false" />
+            <element signature="method#setNeutral#0;class#GuiController#0" expanded="false" />
+            <element signature="method#setSurpised#0;class#GuiController#0" expanded="false" />
+            <element signature="class#DataChanged#0;class#GuiController#0" expanded="false" />
+            <element signature="method#DataChanged#0;class#DataChanged#0;class#GuiController#0" expanded="false" />
+            <element signature="class#DataChangedType#0;class#GuiController#0" expanded="false" />
+            <element signature="class#EmotionKV#0;class#GuiController#0" expanded="false" />
+            <element signature="method#EmotionKV#0;class#EmotionKV#0;class#GuiController#0" expanded="false" />
+            <element signature="method#notifyChanged#0;class#GuiController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/managers/GuiManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/behaviours/BehaviourToGui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/managers/IntentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="129" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="129" selection-end-column="8" />
+          <folding>
+            <element signature="docComment;class#IntentManager#0" expanded="false" />
+            <element signature="e#3812#3897#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager-resources/config/managerexample.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="31" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExampleManagers/ExampleManagers/src/eu/aria/dialogue/managers/POSManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="114" column="54" selection-start-line="114" selection-start-column="54" selection-end-line="114" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#11843#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#POSManager#0" expanded="false" />
+            <element signature="e#3869#3954#0" expanded="false" />
+            <element signature="method#processInternal#0;class#POSManager#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

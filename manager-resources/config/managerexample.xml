@@ -24,10 +24,10 @@ Managers: A template can contain one or multiple managers, and for each managers
 			<parameter name="stopwords_path" path="true" value="../data/stopwords.txt"/>
 			<parameter name="synonyms_path" path="true" value="../data/synonyms.txt"/>
 			<parameter name="pos_model_path" path="true" value="../data/english-left3words-distsim.tagger"/>
-			
+
 		</class>
 		<!--<templates>
-			 todo rules to flipper templates 		
+			 todo rules to flipper templates
 		</templates>-->
 	</manager>
 
@@ -49,4 +49,19 @@ Managers: A template can contain one or multiple managers, and for each managers
 		<class classname="eu.aria.dialogue.managers.utils.ISInspector">
 		</class>
 	</manager>
+
+	<manager id="005" name="POSManager" interval="50">
+		<class classname="eu.aria.dialogue.managers.POSManager">
+			<parameter name="rules_path" path="true" value="../data/rules.xml"/>
+			<parameter name="stopwords_path" path="true" value="../data/stopwords.txt"/>
+			<parameter name="synonyms_path" path="true" value="../data/synonyms.txt"/>
+			<parameter name="pos_model_path" path="true" value="../data/english-left3words-distsim.tagger"/>
+
+		</class>
+		<!--<templates>
+			 todo rules to flipper templates
+		</templates>-->
+	</manager>
+
+
 </managers>
