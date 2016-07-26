@@ -117,7 +117,6 @@ import java.util.logging.Logger;
 
         Record posUtterance = getIS().getRecord(userposPath);
         if (posUtterance == null) {
-            System.out.println("pizza, idk");
             posUtterance = new DefaultRecord();
             getIS().set(userposPath, posUtterance);
         }
