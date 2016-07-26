@@ -83,7 +83,7 @@ public class ManagerParser {
                         managers.addAll(newManagers);
                     }
                 } catch (IOException | ParserConfigurationException | SAXException ex){
-                    System.out.println("Could not parse: " + filename);
+                    System.out.println("Could not parse: " + filename + " : " + ex.getMessage());
                 }
                              
             }

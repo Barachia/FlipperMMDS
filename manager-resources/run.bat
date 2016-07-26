@@ -7,6 +7,7 @@ set modulespaths=lib/*;modules/*;modules/lib/*
 REM MAIN JAR TO LOAD
 set mainjar=FlipperMMDS.jar
 
+
 REM MAIN CLASS TO LOAD
 REM package name and class name as defined in java file
 set mainclass=eu.ariaagent.flipper.Main
