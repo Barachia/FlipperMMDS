@@ -69,5 +69,8 @@
         <jarDirectory url="file://$MODULE_DIR$/ExampleManagers/ExampleManagers/lib/stanford-postagger-full-2015-12-09" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
+    <orderEntry type="library" exported="" name="JSON" level="project" />
+    <orderEntry type="library" exported="" name="stanford-parser-full-2015-12-09" level="project" />
+    <orderEntry type="library" exported="" name="stanford-postagger-full-2015-12-09" level="project" />
   </component>
 </module>

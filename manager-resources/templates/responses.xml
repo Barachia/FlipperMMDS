@@ -1,16 +1,82 @@
 <behaviourtemplates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3schools.com template.xsd">
-	
-	<template id="0" name="Long_Pause">
-	   <preconditions>
-	      <compare value1="$userstates.intention" value2="longPause" />
-	   </preconditions>
-	   
-	   <behaviour class="eu.aria.dialogue.behaviours.BehaviourToGui">
-	      <argument name="response" value="Hi, are you still there?" />
-	   </behaviour>
+
+	<!--The rules to using variables, as defined by Kevin Bowden:-->
+		<!--Recognized variable names: @noun0-9, @?adj0-90-9, @adj0-90-9-->
+		<!---->
+		<!--The first int is always the ID, the second int is for a secondary ID. All first IDs are related,-->
+		<!--such that adj12 can only be values of noun1, and the 2 correlates to the adjective itself. The question mark-->
+		<!--identifies optional arguments, and currently is only used with adj values.-->
+	<!---->
+		<!--Example IS:
+				Nouns:[program, dog], adjectives[[robust, old],[hairy]]-->
+		<!--Example Input:
+				Can you tell me more about the @adj11 @?adj12 @noun1?-->
+		<!--Example output:-->
+			<!--Can you tell me more about the old program?-->
+			<!--Can you tell me more about the old robust program?-->
+	<!---->
+	<!--Regex matching for variable: @\??[a-zA-Z0-9]+-->
+
+
+
+	<template id="9999" name="one_entry_test">
+		<preconditions>
+			<compare value1="$userstates.intention" value2="longPause" />
+			<compare value1="$userstates.utterance.story.sentences"  comparator="not_exists" />
+		</preconditions>
+
+		<behaviour class="eu.aria.dialogue.behaviours.BehaviourToGui">
+			<argument name="response" value="wutttttttttttt" />
+		</behaviour>
 	</template>
-	
-	
+
+	<template id="9990" name="one_entry_test">
+		<preconditions>
+			<compare value1="$userstates.intention" value2="longPause" />
+		</preconditions>
+
+		<behaviour class="eu.aria.dialogue.behaviours.BehaviourToGui">
+			<argument name="response" value="You said the @noun1 was @adj11 and @?adj12?" />
+		</behaviour>
+	</template>
+
+
+	<!--<template id="999" name="two_entry_test">-->
+		<!--<preconditions>-->
+			<!--<compare value1="$userstates.intention" value2="longPause" />-->
+		<!--</preconditions>-->
+
+		<!--<behaviour class="eu.aria.dialogue.behaviours.BehaviourToGui">-->
+			<!--<argument name="response" value="Do you think you interests in @noun1 are because of your interest in @noun2?" />-->
+		<!--</behaviour>-->
+	<!--</template>-->
+
+
+	<!--old stuf below here-->
+
+	<!--<template id="0" name="Long_Pause">-->
+	   <!--<preconditions>-->
+	      <!--<compare value1="$userstates.intention" value2="longPause" />-->
+	   <!--</preconditions>-->
+	   <!---->
+	   <!--<behaviour class="eu.aria.dialogue.behaviours.BehaviourToGui">-->
+	      <!--<argument name="response" value="Hi, are you still there?" />-->
+	   <!--</behaviour>-->
+	<!--</template>-->
+
+	<template id="900" name="Return_greeting_test">
+		<preconditions>
+			<compare value1="$userstates.intention" value2="greeting" />
+			<compare value1="$dialoguestates.topic" value2="greeting" />
+		</preconditions>
+
+		<behaviour class="eu.aria.dialogue.behaviours.BehaviourToGui">
+			<argument name="response" value="Hello, my name is Alice. How are you doing? Though if I'm honest, I don't care."  />
+			<argument name="response" value="Hello, my name is Alice. How are you?"  />
+		</behaviour>
+	</template>
+
+
 	<template id="1" name="Return_greeting">
 	   <preconditions>
 	      <compare value1="$userstates.intention" value2="greeting" />

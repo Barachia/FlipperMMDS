@@ -3,6 +3,8 @@ by Kevin Bowden
  */
 package eu.aria.dialogue.managers;
 
+import edu.stanford.nlp.trees.Tree;
+import edu.stanford.nlp.trees.TypedDependency;
 import eu.aria.dialogue.util.*;
 import eu.ariaagent.managers.DefaultManager;
 import hmi.flipper.defaultInformationstate.DefaultList;
@@ -24,21 +26,11 @@ import java.util.logging.Logger;
  * @author Siewart
  */
  public class POSManager extends DefaultManager {
-    private SentencesToKeywords sk;
-    private ArrayList<Rules> rules;
-    private RulesReader rulesReader;
-
-    private String intentionPath = "$userstates.intention";
     private String userUtterancePath = "$userstates.utterance";
     private String userposPath = "$userstates.utterance.pos";
 
-    private String unknownState = "unknown";
-    private String longPauseState = "longPause";
-
-    private long timeout = 15000;
-
-
     private StanfordTagger stanfordTagger;
+    private StanfordParser stanfordParser;
 
     public POSManager(DefaultRecord is) {
         super(is);
@@ -49,58 +41,19 @@ import java.util.logging.Logger;
 
     @Override
     public void setParams(Map<String, String> params, Map<String, String[]> paramList){
-        String rulesLocation = params.get("rules_path");
-        if(rulesLocation == null){
-            System.err.println("Parameter 'rules_path' not set for manager "+ getName() + "(" + getID() + "). Without it this manager will do nothing.");
-            rules = new ArrayList<>();
-        }else{
-            rulesReader = new RulesReader(rulesLocation);
-            rulesReader.readData();
-            rules = rulesReader.getRules();
-        }
-        String ohTimeout = params.get("oh_timeout");
-        try{
-            this.timeout = Long.parseLong(ohTimeout);
-        }catch(NumberFormatException ex){
-            System.out.println("Parameter 'oh_timeout' is not an integer in manager " + getName() + "(" + getID() + "). Using default of 15000 ms" );
-        }
-        try{
-            String stopwords = params.get("stopwords_path");
-            String synonyms = params.get("synonyms_path");
-            String posModel = params.get("pos_model_path");
-            if(stopwords == null || synonyms == null || posModel == null){
-                System.err.println("Parameter 'stopwords_path', 'synonyms_path' and 'pos_model_path' must all be set as filepaths in manager " + getName() + "(" + getID() + ")." );
-            }
-            sk = new SentencesToKeywords(stopwords, synonyms, posModel);
-       }catch(IOException ex){
-            System.out.println("Error in manager "+ getName() + "(" + getID() + "). Could not create SentencesToKeywords: "+ex.getMessage());
-        }
         String path = params.get("user_utterance_is_path");
         if(path != null){
             userUtterancePath = path;
         }
 
-        path = params.get("intention_is_path");
-        if(path != null){
-            intentionPath = path;
-        }
-
-        String stateName = params.get("long_pause_state_name");
-        if(path != null){
-            longPauseState = stateName;
-        }
-
-        stateName = params.get("long_pause_state_name");
-        if(path != null){
-            unknownState = stateName;
-        }
-
         String posModel = params.get("pos_model_path");
+        String parseModel = params.get("parse_model");
 
         stanfordTagger = new StanfordTagger(posModel);
+        stanfordParser = new StanfordParser(parseModel);
+
     }
 
-    long lastLongPause = 0;
     @Override
     public void process() {
         super.process();
@@ -122,35 +75,40 @@ import java.util.logging.Logger;
         }
 
         if (!utterance.getString("consumed").equals("true")) {
-            System.out.println("Inside the not consumed if" );
             String basicAdj = null;
             ArrayList<String> nounBuilder = new ArrayList<>();
 
-            if (posUtterance.getString("init") == null) {
-                System.out.println("Inside the init if");
-                if (posUtterance.getString("nouns") == null) {
+                if (posUtterance.getList("nouns") == null) {
                     posUtterance.set("nouns", new DefaultList());
                 }
-                if (posUtterance.getString("adjectives") == null) {
+                if (posUtterance.getList("adjectives") == null) {
                     posUtterance.set("adjectives", new DefaultList());
                 }
-                if (posUtterance.getString("lastStated") == null) {
+                if (posUtterance.getList("lastStated") == null) {
                     posUtterance.set("lastStated", new DefaultList());
                 }
-                if (posUtterance.getInteger("frequency") == null) {
+                if (posUtterance.getList("frequency") == null) {
                     posUtterance.set("frequency", new DefaultList());
                 }
-                if (posUtterance.getInteger("preference") == null) {
+                if (posUtterance.getList("preference") == null) {
                     posUtterance.set("preference", new DefaultList());
                 }
-                posUtterance.set("init", "true");
-            }
+                if (posUtterance.getList("preference") == null) {
+                    posUtterance.set("preference", new DefaultList());
+                }
 
-                System.out.println("Inside the not consumed else");
                 String userSay = utterance.getString("text");
                 if (userSay != null && !utterance.getString("consumed").equals("true")) {
-                    System.out.println("inside the userSay != null if");
-                    ArrayList<String> taggedText = stanfordTagger.tagFile(new ArrayList<>(Arrays.asList(userSay.split(" "))));
+                    ArrayList<String> wordset = new ArrayList<>(Arrays.asList(userSay.split(" ")));
+                    ArrayList<String> taggedText = stanfordTagger.tagFile(wordset);
+                    //TODO implement parsing relationships, mostly modifiers
+                    Tree parse = stanfordParser.parseWords(wordset);
+                    java.util.List<TypedDependency> depParse = stanfordParser.dependencyParse(parse);
+
+//                    for(dep : depParse){
+//                        System.out.println(dep);
+//                    }
+
                     for (int i = 0; i < taggedText.size(); i++) {
                         String word = taggedText.get(i);
                         int index = word.lastIndexOf("_");
@@ -189,7 +147,6 @@ import java.util.logging.Logger;
                         }
                         double currTime = (double) System.currentTimeMillis();
                         if ((!pos.startsWith("NN") || i == taggedText.size() - 1) && nounBuilder.size() > 0) {
-                            System.out.println("Inside the if that eventually writes");
                             String noun = "";
                             for (String n : nounBuilder) {
                                 noun += n + " ";
@@ -227,51 +184,14 @@ import java.util.logging.Logger;
                                 posUtterance.set("lastStated", lastStated);
                             }
                             if (basicAdj != null) {
-                                System.out.println("Inside the if that handles adjectives");
                                 DefaultList currAdjList = (DefaultList) adjectives.getItem(nid).getList();
                                 currAdjList.addItemEnd(basicAdj);
                                 basicAdj = null;
                                 posUtterance.set("adjectives", adjectives);
                             }
                         }
-
                     }
                 }
-
-
-
-
-        }
-    }
-
-    private void processInternal(String userSay) {
-
-        boolean keywordFound = false;
-
-        // userSay = userSay.replaceAll("\\?", " ?");
-        ArrayList<String> userSayAL = sk.removeStopWords(userSay.replaceAll("\\?", " ?"));
-        try {
-            userSayAL = sk.pickUp(userSayAL/*, bwDet*/);
-        } catch (IOException ex) {
-            Logger.getLogger(POSManager.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        for (Rules rule : rules) {
-            int count = 0;
-            for (String word : rule.getWords()) {
-                for (String userUtt : userSayAL) {
-                    if (userUtt.toLowerCase().contains(word)) count++;
-                }
-            }
-            if (count == rule.getWords().size()) {
-                for (State state : rule.getStates()) {
-                    is.set(state.getName(), state.getValue());
-                }
-                keywordFound = true;
-                break;
-            }
-        }
-        if (!keywordFound) {
-            is.set(intentionPath, unknownState);
         }
     }
  }

@@ -8,32 +8,41 @@ import edu.stanford.nlp.trees.*;
 import java.util.ArrayList;
 import java.util.List;
 
-
+// By Kevin Bowden
 //parse tag meanings: https://gist.github.com/nlothian/9240750
 
-class StanfordParser {
+public class StanfordParser {
 
     static LexicalizedParser parser;
 
-    StanfordParser() {
+    public StanfordParser(String parseModel) {
         parser = LexicalizedParser.loadModel("edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz");
+
         parser.setOptionFlags(new String[] { "-maxLength", "80",
                 "-retainTmpSubcategories" });
     }
 
-
-    public void parseWords(ArrayList<String> wordsList){
-        String[] wordsArray = wordsList.toArray(new String[wordsList.size()]);
-        List<CoreLabel> rawWords = Sentence.toCoreLabelList(wordsArray);
-
-        //pos tag tree parse, type:Tree
-        Tree parse = parser.apply(rawWords);
-
+    public List<TypedDependency> dependencyParse(Tree parse){
         TreebankLanguagePack tlp = new PennTreebankLanguagePack();
         GrammaticalStructureFactory gsf = tlp.grammaticalStructureFactory();
         GrammaticalStructure gs = gsf.newGrammaticalStructure(parse);
         //dep structure parse, type: arrayList
-        List<TypedDependency> depParse = gs.typedDependenciesCCprocessed();
+        return gs.typedDependenciesCCprocessed();
+    }
+
+    public Tree parseWords(ArrayList<String> wordsList){
+        String[] wordsArray = wordsList.toArray(new String[wordsList.size()]);
+        List<CoreLabel> rawWords = Sentence.toCoreLabelList(wordsArray);
+
+        //pos tag tree parse, type:Tree
+//        try {
+        Tree parse = parser.apply(rawWords);
+        return parse;
+//
+//        }
+//        catch(NoSuchFieldError e){
+//
+//        }
 
 //        System.out.println(parse);
 
