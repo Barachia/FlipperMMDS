@@ -1,10 +1,16 @@
 package eu.aria.dialogue.util;
 
 import edu.stanford.nlp.ling.CoreLabel;
+import edu.stanford.nlp.ling.IndexedWord;
 import edu.stanford.nlp.ling.Sentence;
 import edu.stanford.nlp.parser.lexparser.LexicalizedParser;
+import edu.stanford.nlp.process.CoreLabelTokenFactory;
+import edu.stanford.nlp.process.PTBTokenizer;
+import edu.stanford.nlp.process.Tokenizer;
+import edu.stanford.nlp.process.TokenizerFactory;
 import edu.stanford.nlp.trees.*;
 
+import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,17 +23,29 @@ public class StanfordParser {
 
     public StanfordParser(String parseModel) {
         parser = LexicalizedParser.loadModel("edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz");
+           }
 
-        parser.setOptionFlags(new String[] { "-maxLength", "80",
-                "-retainTmpSubcategories" });
-    }
+    public List<TypedDependency> dependencyParse(String text){
+        TokenizerFactory<CoreLabel> tokenizerFactory = PTBTokenizer.factory(new CoreLabelTokenFactory(), "");
+        Tokenizer<CoreLabel> tok = tokenizerFactory.getTokenizer(new StringReader(text));
+        List<CoreLabel> rawWords2 = tok.tokenize();
+        Tree parse = parser.apply(rawWords2);
 
-    public List<TypedDependency> dependencyParse(Tree parse){
-        TreebankLanguagePack tlp = new PennTreebankLanguagePack();
+        TreebankLanguagePack tlp = parser.treebankLanguagePack(); // PennTreebankLanguagePack for English
         GrammaticalStructureFactory gsf = tlp.grammaticalStructureFactory();
         GrammaticalStructure gs = gsf.newGrammaticalStructure(parse);
-        //dep structure parse, type: arrayList
-        return gs.typedDependenciesCCprocessed();
+        List<TypedDependency> tdl = gs.typedDependenciesCCprocessed();
+
+//        System.out.println(tdl);
+//        System.out.println();
+//
+//        TreePrint tp = new TreePrint("penn,typedDependenciesCollapsed");
+//        tp.printTree(parse);
+
+        return tdl;
+
+
+
     }
 
     public Tree parseWords(ArrayList<String> wordsList){
@@ -35,33 +53,12 @@ public class StanfordParser {
         List<CoreLabel> rawWords = Sentence.toCoreLabelList(wordsArray);
 
         //pos tag tree parse, type:Tree
-//        try {
         Tree parse = parser.apply(rawWords);
         return parse;
-//
-//        }
-//        catch(NoSuchFieldError e){
-//
-//        }
-
-//        System.out.println(parse);
 
 
-//        loop through parse tree
-//        for (Tree subtree : parse) {
-//            if (subtree.label().value().equals("PRP")) {
-//
-//            }
-//        }
 
-        //tregex example
-//        TregexPattern tgrepPattern = TregexPattern.compile("PRP");
-//        TregexMatcher m = tgrepPattern.matcher(t);
-//        while (m.find()) {
-//            Tree subtree = m.getMatch();
-//            pronouns.add(subtree);
-//        }
 
-    }
+        }
 
 }

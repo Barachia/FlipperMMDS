@@ -2,34 +2,34 @@
 
 
 
-	<template id="999" name="Test_q_two_var">
-		<preconditions>
-			<compare value1="$userstates.utterance" value2="longPause"/> <!-- change longPause into a more appropriate variable-->
-		</preconditions>
+	<!--<template id="999" name="Test_q_two_var">-->
+		<!--<preconditions>-->
+			<!--<compare value1="$userstates.utterance" value2="longPause"/> &lt;!&ndash; change longPause into a more appropriate variable&ndash;&gt;-->
+		<!--</preconditions>-->
 
-		<behaviour class="eu.aria.dialogue.behaviours.BehaviourToGui">
-			<argument name="response" value="Awesome!! This is really interesting. So do you think that possibly your interest in @noun1 is related to your interest in @noun2" />
-		</behaviour>
-	</template>
+		<!--<behaviour class="eu.aria.dialogue.behaviours.BehaviourToGui">-->
+			<!--<argument name="response" value="Awesome!! This is really interesting. So do you think that possibly your interest in @noun1 is related to your interest in @noun2" />-->
+		<!--</behaviour>-->
+	<!--</template>-->
 
 
 
-	<template id="998" name="Test_q_one_var">
-		<preconditions>
-			<compare value1="$userstates.utterance" value2="longPause"/> <!--what does utterance stand for?-->
-		</preconditions>
+	<!--<template id="998" name="Test_q_one_var">-->
+		<!--<preconditions>-->
+			<!--<compare value1="$userstates.utterance" value2="longPause"/> &lt;!&ndash;what does utterance stand for?&ndash;&gt;-->
+		<!--</preconditions>-->
 
-		<behaviour class="eu.aria.dialogue.behaviours.BehaviourToGui">
-			<argument name="response" value="So, what specifically do you like about @noun1?" />
-			<argument name="response" value="You mentioned @noun1. What specifically do you like about @noun1?" />
-		</behaviour>
-</template>
+		<!--<behaviour class="eu.aria.dialogue.behaviours.BehaviourToGui">-->
+			<!--<argument name="response" value="So, what specifically do you like about @noun1?" />-->
+			<!--<argument name="response" value="You mentioned @noun1. What specifically do you like about @noun1?" />-->
+		<!--</behaviour>-->
+<!--</template>-->
 	<!--The rules to using variables, as defined by Kevin Bowden:-->
-		<!--Recognized variable names: @noun0-9, @?adj0-90-9, @adj0-90-9-->
+		<!--Recognized variable names: @noun0-9, @nounposs0-9, @?adj0-90-9, @adj0-90-9, @?adjposs0-90-9, @adjposs0-90-9-->
 		<!---->
 		<!--The first int is always the ID, the second int is for a secondary ID. All first IDs are related,-->
 		<!--such that adj12 can only be values of noun1, and the 2 correlates to the adjective itself. The question mark-->
-		<!--identifies optional arguments, and currently is only used with adj values.-->
+		<!--identifies optional arguments, and currently is only used with adj values. posnoun correlates to nouns that are possessions.-->
 	<!---->
 		<!--Example IS:
 				Nouns:[program, dog], adjectives[[robust, old],[hairy]]-->
@@ -42,29 +42,49 @@
 	<!--Regex matching for variable: @\??[a-zA-Z0-9]+-->
 
 
-
-	<template id="9999" name="one_entry_test">
-		<preconditions>
-			<compare value1="$userstates.intention" value2="longPause" />
-			<compare value1="$userstates.utterance.story.sentences"  comparator="not_exists" />
-		</preconditions>
-
-		<behaviour class="eu.aria.dialogue.behaviours.BehaviourToGui">
-			<argument name="response" value="wutttttttttttt" />
-		</behaviour>
-	</template>
-
-	<template id="9990" name="one_entry_test">
+	<template id="0.5" name="one_entry_test">
 		<preconditions>
 			<compare value1="$userstates.intention" value2="longPause" />
 		</preconditions>
 
 		<behaviour class="eu.aria.dialogue.behaviours.BehaviourToGui">
-			<argument name="response" value="You said the @noun1 was @adj11 and @?adj12?" />
+			<!--<argument name="response" value="Hey, are you still there?" />-->
+			<argument name="response" value="So you said the @noun1 was @adj11, why is that?" />
+
 		</behaviour>
 	</template>
 
+	<template id="0.5" name="one_entry_test">
+		<preconditions>
+			<compare value1="$userstates.utterance.pos.possSize" comparator="greater_than" value2="1" />
+		</preconditions>
 
+		<behaviour class="eu.aria.dialogue.behaviours.BehaviourToGui">
+			<!--<argument name="response" value="Hey, are you still there?" />-->
+			<argument name="response" value="Why don't you tell me more about your @nounposs1" />
+
+		</behaviour>
+	</template>
+
+	<template id="0.6" name="one_entry_test">
+		<preconditions>
+			<compare value1="$userstates.utterance.pos.nounSize" comparator="greater_equals"  value2="9" />
+		</preconditions>
+
+		<behaviour class="eu.aria.dialogue.behaviours.BehaviourToGui">
+			<argument name="response" value="So you said the @noun1 was @adj11, why is that?" />
+		</behaviour>
+	</template>
+
+	<template id="0.8" name="one_entry_test">
+		<preconditions>
+			<compare value1="$userstates.utterance.pos.nounSize" comparator="greater_equals"  value2="10" />
+		</preconditions>
+
+		<behaviour class="eu.aria.dialogue.behaviours.BehaviourToGui">
+			<argument name="response" value="You seem very interested in @noun1, is there anything else about it you want me to know?" />
+		</behaviour>
+	</template>
 	<!--<template id="999" name="two_entry_test">-->
 		<!--<preconditions>-->
 			<!--<compare value1="$userstates.intention" value2="longPause" />-->
@@ -95,8 +115,7 @@
 		</preconditions>
 
 		<behaviour class="eu.aria.dialogue.behaviours.BehaviourToGui">
-			<argument name="response" value="Hello, my name is Alice. How are you doing? Though if I'm honest, I don't care."  />
-			<argument name="response" value="Hello, my name is Alice. How are you?"  />
+			<argument name="response" value="Hello, my name is Alice. Why don't you tell me a little bit about yourself?"  />
 		</behaviour>
 	</template>
 
@@ -371,7 +390,7 @@
 	   </preconditions>
 	
 	   <behaviour class="eu.aria.dialogue.behaviours.BehaviourToGui">
-	      <argument name="response" value="I am not sure" />
+	      <argument name="response" value="That's cool." />
 	   </behaviour>
 	</template>
 
@@ -908,7 +927,7 @@
 	
 	<template id="45" name="Respond_ToAgreement">
 		<preconditions>
-			 <compare value1="$userstates.intention" value2="expressAgreement" />
+			 <compare value1="$userstates.intention" value2="Okay." />
 		</preconditions>
 		
 		<behaviour class="eu.aria.dialogue.behaviours.BehaviourToGui">

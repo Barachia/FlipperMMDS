@@ -14,14 +14,19 @@ import eu.aria.dialogue.gui.GuiController;
 import java.util.HashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import eu.aria.dialogue.KnowledgeDB.KnowledgeBase;
 import eu.aria.dialogue.util.Say;
+import eu.aria.dialogue.util.Wordnet;
 import eu.ariaagent.managers.Manager;
 import eu.ariaagent.util.ManageableBehaviourClass;
-import hmi.flipper.defaultInformationstate.DefaultList;
 import hmi.flipper.defaultInformationstate.DefaultRecord;
 import hmi.flipper.informationstate.List;
 import hmi.flipper.informationstate.Record;
 
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptException;
 import java.util.ArrayList;
 
 
@@ -40,18 +45,18 @@ public class BehaviourToGui implements ManageableBehaviourClass{
     
     private String agentName = "Agent";
     private double currTime;
-    private HashMap hashMap;
+    private HashMap localReplacements;
 
-
+    KnowledgeBase kb = KnowledgeBase.getKB();
 
     public String queryBuilder(String value){
         String pattern = "@\\??[a-zA-Z0-9]+";
-        hashMap = new HashMap();
+        localReplacements = new HashMap();
         Pattern pat = Pattern.compile(pattern);
         Matcher matches = pat.matcher(value);
         ArrayList<String> toReplace = new ArrayList<>();
 
-        List adjectives = posUtterance.getList("adjectives");
+        adjectives = posUtterance.getList("adjectives");
             while(matches.find()){
             String match = matches.group();
                 if(match.startsWith("@?")){
@@ -69,43 +74,46 @@ public class BehaviourToGui implements ManageableBehaviourClass{
                         String replacementNoun = "";
                         int k = 0;
                         int numAdj = numVars(value, "@adj");
-                        while(k < 10 && k < ri.size()){
-                            if(numAdj <= adjectives.getItem(ri.get(k)).getList().size()){
-                                if(!hashMap.containsValue(replacementNoun)){
-                                    replacementNoun = nouns.getItem(ri.get(k)).getString();
+                        while (k < 10 && k < ri.size()) {
+                            if (numAdj <= adjectives.getItem(ri.get(k)).getInteger()) {
+                                if (localReplacements.containsValue(replacementNoun)) {
+                                    String currNoun = nouns.getItem(ri.get(k)).getString();
+                                    if(replacementNoun.startsWith("nounposs") && !kb.isPossession(currNoun)){
+                                        System.out.println("continue");
+                                        continue;
+                                    }
+                                    System.out.println("Hit the break");
+                                    replacementNoun = currNoun;
                                     break;
                                 }
                             }
                             k++;
                         }
-                        if(replacementNoun.equals("")){
+                        if (replacementNoun.equals("")) {
+                            System.out.println("null return");
                             return null;
                         }
-                        Pattern patn = Pattern.compile("@\\??"+r);
+                        Pattern patn = Pattern.compile("@\\??" + r);
                         Matcher matn = patn.matcher(value);
                         value = matn.replaceAll(replacementNoun);
-                        hashMap.put(r, replacementNoun);
+                        localReplacements.put(r, replacementNoun);
                     } else if (r.startsWith("adj") && iters > 0) {
-                        String[] reps = r.split("adj");
+                        String poss = "";
+                        if(r.startsWith("adjposs")){
+                            poss = "poss";
+                        }
+                        String[] reps = r.split("adj"+poss);
                         String repID = reps[reps.length - 1];
 
-                        String adjNoun = hashMap.get("noun" + repID.substring(0, 1)).toString();
-                        int ai = findIndex(adjNoun, nouns);
-
-                        List curr_adj = adjectives.getItem(ai).getList();
+                        String adjNoun = localReplacements.get("noun"+poss + repID.substring(0, 1)).toString();
                         String replacementAdj = "";
-                        if(curr_adj.size() > 0){
-                            replacementAdj = curr_adj.getItem(curr_adj.size()-1).getString();
-                            int k = 1;
-                            while(hashMap.containsValue(replacementAdj) && k < 10 && curr_adj.size() - k > 0){
-                                replacementAdj = curr_adj.getItem(curr_adj.size()-k).getString();
-                                k++;
-                            }
+                        if(kb.numAdj(adjNoun) > 0){
+                            replacementAdj = kb.getAdj(adjNoun, localReplacements.keySet());
                         }
                         Pattern pata = Pattern.compile("@\\??"+r);
                         Matcher mata = pata.matcher(value);
                         value = mata.replaceAll(replacementAdj);
-                        hashMap.put(r, replacementAdj);
+                        localReplacements.put(r, replacementAdj);
                     }
                 }
                 iters++;
@@ -189,11 +197,7 @@ public class BehaviourToGui implements ManageableBehaviourClass{
         return sortedIndex;
     }
 
-    public ArrayList<String> posQualifier(ArrayList<String> values, List list, String pattern){
-        int nsize = 0;
-        if(list != null){
-            nsize = list.size();
-        }
+    public ArrayList<String> posQualifier(ArrayList<String> values, int stopNum, String pattern){
         ArrayList<String> nvals = new ArrayList<>();
         for(String value :  values) {
             Pattern pat = Pattern.compile(pattern);
@@ -202,7 +206,7 @@ public class BehaviourToGui implements ManageableBehaviourClass{
             while(matches.find()){
                 count++;
             }
-            if(count <= nsize) {
+            if(count <= stopNum) {
                 nvals.add(value);
             }
         }
@@ -237,6 +241,18 @@ public class BehaviourToGui implements ManageableBehaviourClass{
             this.gui = GuiController.getInstance(manager.getIS());
         }
 
+//        Wordnet wn = new Wordnet();
+//        wn.runExample();
+
+//        ScriptEngineManager mgr = new ScriptEngineManager();
+//        ScriptEngine engine = mgr.getEngineByName("JavaScript");
+//        String foo = "blah()";
+//        try {
+//            System.out.println(engine.eval(foo));
+//        } catch (ScriptException e) {
+//            e.printStackTrace();
+//        }
+
         manager.getIS().set("$userstates.intention", "");
         currTime = (double) System.currentTimeMillis();
         posUtterance = manager.getIS().getRecord(userposPath);
@@ -253,11 +269,20 @@ public class BehaviourToGui implements ManageableBehaviourClass{
         nouns = posUtterance.getList("nouns");
         adjectives = posUtterance.getList("adjectives");
         lastStated = posUtterance.getList("lastStated");
+        int possSize = posUtterance.getInteger("possSize");
 
-        argValues = posQualifier(argValues, nouns, "@noun");
+        System.out.println(argValues);
+        argValues = posQualifier(argValues, nouns.size(), "@noun");
+        argValues = posQualifier(argValues, possSize, "@nounposs");
+        System.out.println(argValues);
+
         if(argValues.size() > 0) {
             agentOutput(argValues.get(0));
         }
+    }
+
+    public void blah(){
+        System.out.println(kb.numAdj("dog"));
     }
 
 

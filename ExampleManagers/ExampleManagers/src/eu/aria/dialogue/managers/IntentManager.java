@@ -33,7 +33,7 @@ import java.util.logging.Logger;
     private String unknownState = "unknown";
     private String longPauseState = "longPause";
     
-    private long timeout = 5000;
+    private long timeout = 10000;
     
     public IntentManager(DefaultRecord is) {
         super(is);
